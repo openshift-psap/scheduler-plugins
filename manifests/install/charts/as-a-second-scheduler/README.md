@@ -23,7 +23,7 @@ Most common options are:
 #### Install chart using Helm v3.0+
 
 ```bash
-$ git clone git@github.com:kubernetes-sigs/scheduler-plugins.git
+$ git clone https://github.com/openshift-psap/scheduler-plugins.git -b fluence
 $ cd scheduler-plugins/manifests/install/charts
 $ helm install scheduler-plugins as-a-second-scheduler/
 ```
